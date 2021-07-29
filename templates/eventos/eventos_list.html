@@ -1,0 +1,6 @@
+{%extends 'base.html'%}
+{%block page%}
+    {%for evento in object_list%}
+        <p>{{evento.name}}</p>
+    {%endfor%}
+{%endblock%}
